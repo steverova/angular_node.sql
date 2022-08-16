@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #bccee4;
+}
+
+.btn-space {
+    margin-right: 0.5em;
+    ;
+}
+
+.card{
+    background-color: rgb(238, 237, 237);
+}
+
+.btn, .panel-table{
+         box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+}

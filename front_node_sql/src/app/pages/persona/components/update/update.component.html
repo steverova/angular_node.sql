@@ -1,0 +1,77 @@
+<p>update works!</p>
+
+<div class="container mt-5">
+  <div class="col-md-8 col-lg-5 mx-auto">
+    <div class="card p-5">
+      <div>
+        <h5>ACTUALIZAR PERSONA</h5>
+      </div>
+
+      <form [formGroup]="formPerson" (ngSubmit)="updatePerson()">
+        <div class="form-group mt-3">
+          <input
+          hidden
+            type="text"
+            name="id"
+            formControlName="id"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            formControlName="nombre"
+            class="form-control"
+            placeholder="Ingrese su nombre"
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Apellido</label>
+          <input
+            type="text"
+            name="apellido"
+            formControlName="apellido"
+            class="form-control"
+            placeholder="Ingrese su apellido"
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="">Cedula</label>
+          <input
+            type="number"
+            name="cedula"
+            formControlName="cedula"
+            class="form-control"
+            placeholder="Ingrese su cedula"
+            aria-describedby="helpId"
+          />
+        </div>
+
+        <div class="form-group mt-3">
+          <a
+            type="button"
+            routerLink="/person/show"
+            class="btn btn-outline-secondary btn-space"
+            ><span class="material-symbols-outlined"> arrow_back </span></a
+          >
+          <button 
+          type="submit" 
+          class="btn btn-outline-success btn-space">
+            <div>
+              <span class="material-symbols-outlined"> save </span>
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

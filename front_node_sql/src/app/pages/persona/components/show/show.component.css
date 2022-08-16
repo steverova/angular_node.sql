@@ -1,0 +1,26 @@
+.btn-space {
+  margin-right: 0.5em;
+}
+
+td{
+    vertical-align: baseline;
+}
+
+tr {
+  border-color: rgb(167, 167, 211);
+}
+
+.panel-table {
+  border: 1px solid rgba(175, 175, 175, 0.733);
+  border-radius: 8px;
+}
+
+thead {
+  background-color: rgb(181, 181, 215);
+}
+
+.btn,
+.panel-table {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
